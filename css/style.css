@@ -1,0 +1,225 @@
+body{
+    margin: 0!important;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+*::selection{
+    background: none;
+    color: none;
+}
+
+:root{
+    --vermelho-principal: #e50914;
+}
+
+.fundo-entrar
+{
+    filter:brightness(.4);
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.fundo-entrar
+{
+    display: block;
+    position: absolute;
+    z-index: -1;
+    margin-top: -15px
+}
+ 
+.titulo-entrar
+{
+    font-size: 35px;
+}
+
+.netflix-logo
+{
+    fill: var(--vermelho-principal)!important;
+    width: 150px;
+    margin: 15px 20px;
+}
+
+.div-entrar
+{
+    background-color: rgba(0,0,0,.75);
+    color: #fff;
+    margin-top: 40px;
+    min-height: 660px;
+    max-width: 450px;
+    padding: 50px 67px 45px!important;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.campo-entrar-email
+{
+    width: 100%;
+    background-color: #333333!important;
+    border: 0!important;
+    padding: 24px!important;
+    margin: 30px 0 0 0;
+    font-size: 15px!important;
+    color: #fff!important;
+}
+
+.campo-entrar-senha
+{
+    width: 100%;
+    background-color: #333333!important;
+    border: 0!important;
+    padding: 24px!important;
+    margin: 20px 0 0 0;
+    font-size: 15px!important;
+    color: #fff!important;
+}
+
+.campo-entrar-email:focus + .laber-email, .campo-entrar-senha:focus + .laber-password, .campo-entrar-senha:valid + .laber-password 
+{
+    margin-top: -50px!important;
+    font-size: 12px;
+}
+
+.campo-entrar-email:valid + .laber-email
+{
+    margin-top: -50px!important;
+    font-size: 12px;
+}
+ 
+
+.laber-password, .laber-email
+{
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 20px;
+    color: #8c8c8c;
+    transition-duration: 0.2s;
+
+}
+
+.campo-entrar-check
+{
+    margin: 10px 20px;
+    color: #b3b3b3;
+    font-size: 15px;
+}
+
+.invalid-feedback
+{
+    color: #e87c03!important;
+    margin-top: -6px!important;
+    padding: 6px 3px!important;
+}
+
+.btn-entrar
+{
+    color: #fff;
+    background: var(--vermelho-principal);
+    margin: 35px 0 0 0;
+    width: 100%;
+    height: 50px;
+    font-size: 20px!important;
+    font-weight: bold!important;
+}
+
+form
+{
+    margin: 25px 0 0 0;
+}
+
+input[type=checkbox]:before 
+{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 0;
+    left: 0;
+    background-color: #737373;
+    border-radius: 3px;
+}
+
+input[type=checkbox]:checked:after 
+{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid #000;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 6px;
+}
+
+.facebook
+{
+    margin: 50px 0 0 0;
+    font-size: 15px;
+}
+
+.recaptcha
+{
+    font-size: 14px;
+}
+
+.cinza, .cinza:hover
+{
+    color:#737373;
+    text-decoration: none;
+}
+
+.assine
+{
+    margin-top: 10px;
+}
+
+.footer-entrar
+{
+    background: rgba(0,0,0,.75);
+    width: 100%;
+    bottom: 0!important;
+    margin: auto auto;
+    position: bottom;
+    color: #757575;
+    padding: 20px 400px 30px 215px;
+    margin-top: 157px;
+}
+
+.text1-footer
+{
+    font-size: 17px;
+}
+
+.row
+{
+    margin-left: -30px!important;
+}
+
+.col-3
+{
+    font-size: 13px;
+}
+
+.idioma
+{
+    padding-left: 35px!important;
+    background-color: #000;
+    color: #757575;
+    padding: 10px;
+    border: 1px solid #333;    
+    border-radius: 3px;
+}
+
+option
+{
+    background: #000;
+}
+ 
