@@ -1,36 +1,216 @@
-body{
-    margin: 0!important;
-    padding: 0;
-    box-sizing: border-box;
+.corpo-conta
+{
+    background: #141414;
+    min-height: 100vh;
+    font-family: Helvetica;
+    font-weight: 400;
+    justify-content: center!important;
+    display: flex;
+    align-items: center!important;
+    text-align: center;
+}
+
+body
+{
     overflow-x: hidden;
 }
 
-*::selection{
+*::selection
+{
     background: none;
     color: none;
 }
 
+h1
+{
+    color: #fff;
+}
+
+.btn-gerenciar
+{
+    color: #4f4f4f!important;
+    border: 1px solid #4f4f4f!important;
+    fill: 808080;
+    border-radius: 0!important;
+    font-size: 17.28px!important;
+    width: 200px;
+}
+
+.btn-gerenciar:hover
+{
+    color: #fff!important;
+    border-color: #fff!important;
+}
+
+.conta
+{
+    border-radius: 4px;
+    height: 150px;
+    border: 3px solid #141414;
+    cursor: pointer;
+}
+
+.conta:hover, .col:hover .conta
+{
+    border: 3px solid #fff;    
+}
+
+.col:hover .img-adicionar-conta
+{
+    background: #fff;
+}
+
+.row
+{
+    margin: 0 200px!important;
+    flex-wrap: nowrap!important;
+}
+
+.col
+{
+    color: #808080;
+}
+
+.col:hover
+{
+    color: #fff
+}
+
+.texto
+{
+    cursor: pointer;
+}
+
+.icon-tvuiAdd
+{
+    font-family: nf-icon!important;
+}
+
+.icon-tvuiAdd::before
+{
+    content: '\e716';
+}
+
+.browse
+{
+    background-image: url("../img/flash.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh!important;
+    z-index: 9999;
+}
+ 
+
+.nome-serie
+{
+    padding-top: 100px!important;
+    margin-left: 60px;
+    color: #fff;
+    font-family: Helvetica;
+    font-weight: 400!important;
+    font-size: 23.04px;
+}
+
+.navbar-light
+{
+    background: red!important;
+}
+
+.navbar
+{
+    padding-top: 0!important;
+}
+
+.menu-right
+{
+    margin-left: -200px!important;
+}
+
+.icon-tvuiAdd{
+    font-family: nf-icon;
+
+}
+
+.icon-tvuiAdd:before {
+    content: '\e716';
+}
+
+.btn-assistir
+{
+    background: #fff!important;
+    padding: 8px 20px!important;
+    border: 1px solid #fff!important;
+    font-size: 17.28px!important;
+    font-weight: 500!important;
+    margin-top: 10px;
+}
+
+.btn-informacao
+{
+    color: #fff!important;
+    background: #808080!important;
+    padding: 8px 20px!important;
+    border: 1px solid #808080!important;
+    font-size: 17.28px!important;
+    font-weight: 500!important;
+    margin-top: 10px;
+}
+
+.corpo-browse
+{
+    box-shadow: 0px -20px 50px 57px #141414;
+    padding-left: 30px;
+    background: #141414;
+    min-height: 100vh;
+    font-family: Helvetica;
+    font-weight: 400;
+}
+
+.titulo
+{
+    color: #fff;
+    margin-top: 20px;
+}
+.carousel
+{
+    margin-top: 10px;
+}
+
+.img-filme
+{
+    height: 130px!important;
+    width: 220px!important;
+}
+
+.img-adicionar-conta
+{
+    background: #808080;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adicionar-conta
+{
+    min-height: 150px;
+    min-width: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#141414;
+    font-weight: 700;
+    font-size: 100px;
+}
+
+/* ==============PAGINA ENTRAR===============  */
 :root{
     --vermelho-principal: #e50914;
 }
-
-.fundo-entrar
-{
-    filter:brightness(.4);
-    min-height: 100%;
-    min-width: 100%;
-    position: absolute;
-    z-index: 0;
-}
-
-.fundo-entrar
-{
-    display: block;
-    position: absolute;
-    z-index: -1;
-    margin-top: -15px
-}
- 
 .titulo-entrar
 {
     font-size: 35px;
@@ -52,7 +232,7 @@ body{
     max-width: 450px;
     padding: 50px 67px 45px!important;
     margin: 0 auto;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 
 .campo-entrar-email
@@ -189,8 +369,18 @@ input[type=checkbox]:checked:after
     margin: auto auto;
     position: bottom;
     color: #757575;
-    padding: 20px 400px 30px 215px;
+    padding: 20px 400px 10px 215px;
     margin-top: 157px;
+}
+.fundo-entrar
+{
+    background-image: url("fundo6.jpg");
+}
+
+.dropdown-menu
+{
+    background: #141414!important;
+    color: #fff!important;
 }
 
 .text1-footer
@@ -198,7 +388,7 @@ input[type=checkbox]:checked:after
     font-size: 17px;
 }
 
-.row
+.margin-text-footer
 {
     margin-left: -30px!important;
 }
